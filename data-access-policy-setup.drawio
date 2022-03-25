@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T09:52:13.208Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="8CHuNIJE3GpX1oevNtUl" version="17.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-25T09:54:50.034Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="ZHXL7MZL2x98U-FNfE5u" version="17.2.2" type="github">
   <diagram id="mYCVvnoqSooHS_Cqvcj3" name="Page-1">
     <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,11 +13,14 @@
         <mxCell id="dqSc_5AiH_0_V2ETggPR-2" value="I want DATA!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="260" y="34" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dqSc_5AiH_0_V2ETggPR-18" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dqSc_5AiH_0_V2ETggPR-3" target="dqSc_5AiH_0_V2ETggPR-17">
+        <mxCell id="dqSc_5AiH_0_V2ETggPR-18" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dqSc_5AiH_0_V2ETggPR-3" target="dqSc_5AiH_0_V2ETggPR-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dqSc_5AiH_0_V2ETggPR-29" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dqSc_5AiH_0_V2ETggPR-3" target="dqSc_5AiH_0_V2ETggPR-28">
-          <mxGeometry x="-0.2268" y="-2" relative="1" as="geometry">
+        <mxCell id="dqSc_5AiH_0_V2ETggPR-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dqSc_5AiH_0_V2ETggPR-3" target="dqSc_5AiH_0_V2ETggPR-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dqSc_5AiH_0_V2ETggPR-56" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dqSc_5AiH_0_V2ETggPR-53">
+          <mxGeometry x="-0.0757" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -39,17 +42,17 @@
         <mxCell id="dqSc_5AiH_0_V2ETggPR-17" value="Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dqSc_5AiH_0_V2ETggPR-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dqSc_5AiH_0_V2ETggPR-20" target="dqSc_5AiH_0_V2ETggPR-21">
+        <mxCell id="dqSc_5AiH_0_V2ETggPR-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dqSc_5AiH_0_V2ETggPR-20" target="dqSc_5AiH_0_V2ETggPR-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dqSc_5AiH_0_V2ETggPR-20" value="Views" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="470" width="120" height="60" as="geometry" />
+        <mxCell id="dqSc_5AiH_0_V2ETggPR-20" value="Specific Views" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dqSc_5AiH_0_V2ETggPR-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dqSc_5AiH_0_V2ETggPR-21" target="dqSc_5AiH_0_V2ETggPR-16">
+        <mxCell id="dqSc_5AiH_0_V2ETggPR-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dqSc_5AiH_0_V2ETggPR-21" target="dqSc_5AiH_0_V2ETggPR-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dqSc_5AiH_0_V2ETggPR-21" value="SQL Audit Log" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="600" width="80" height="100" as="geometry" />
+          <mxGeometry x="800" y="600" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="dqSc_5AiH_0_V2ETggPR-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dqSc_5AiH_0_V2ETggPR-28" target="dqSc_5AiH_0_V2ETggPR-42">
           <mxGeometry relative="1" as="geometry" />
@@ -57,15 +60,23 @@
         <mxCell id="dqSc_5AiH_0_V2ETggPR-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dqSc_5AiH_0_V2ETggPR-28" target="dqSc_5AiH_0_V2ETggPR-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dqSc_5AiH_0_V2ETggPR-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=67.5;entryPerimeter=0;" edge="1" parent="1" source="dqSc_5AiH_0_V2ETggPR-28" target="dqSc_5AiH_0_V2ETggPR-16">
+        <mxCell id="dqSc_5AiH_0_V2ETggPR-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dqSc_5AiH_0_V2ETggPR-28" target="dqSc_5AiH_0_V2ETggPR-16">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="660" y="668" />
+              <mxPoint x="670" y="550" />
+              <mxPoint x="404" y="550" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="dqSc_5AiH_0_V2ETggPR-28" value="OData API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="400" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="dqSc_5AiH_0_V2ETggPR-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dqSc_5AiH_0_V2ETggPR-36" target="dqSc_5AiH_0_V2ETggPR-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="650" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="dqSc_5AiH_0_V2ETggPR-36" value="Audit" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="235" y="540" width="30" height="60" as="geometry" />
@@ -75,6 +86,20 @@
         </mxCell>
         <mxCell id="dqSc_5AiH_0_V2ETggPR-42" value="Policy Agent" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="369" y="450" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dqSc_5AiH_0_V2ETggPR-55" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dqSc_5AiH_0_V2ETggPR-52" target="dqSc_5AiH_0_V2ETggPR-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dqSc_5AiH_0_V2ETggPR-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dqSc_5AiH_0_V2ETggPR-52" target="dqSc_5AiH_0_V2ETggPR-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dqSc_5AiH_0_V2ETggPR-60" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dqSc_5AiH_0_V2ETggPR-57">
+          <mxGeometry x="0.3148" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dqSc_5AiH_0_V2ETggPR-52" value="Can you get special access?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="165" width="100" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
