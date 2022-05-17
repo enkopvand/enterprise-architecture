@@ -1,40 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T07:41:36.653Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="rOv3kqNSh5i9w1nj20xW" version="17.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T07:58:10.601Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="rMNuEe3qkqpHwDknR4gn" version="17.2.2" type="github">
   <diagram id="T5jom5PX4_7xZoVgfAtH" name="Page-1">
-    <mxGraphModel dx="1550" dy="2004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="EyNJROjgp2bhfI_SQfCK-1" value="BC365" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="-10" width="120" height="80" as="geometry" />
+        <mxCell id="EyNJROjgp2bhfI_SQfCK-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="EyNJROjgp2bhfI_SQfCK-2" target="EyNJROjgp2bhfI_SQfCK-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EyNJROjgp2bhfI_SQfCK-2" value="Elbæk og Vejrup 365 Custom Tenant" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="990" y="130" width="370" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="EyNJROjgp2bhfI_SQfCK-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.227;entryY=0.26;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="EyNJROjgp2bhfI_SQfCK-4" target="EyNJROjgp2bhfI_SQfCK-2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="640" y="400" />
-              <mxPoint x="925" y="400" />
-              <mxPoint x="925" y="200" />
-              <mxPoint x="1074" y="200" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EyNJROjgp2bhfI_SQfCK-24" value="ODATA filter med ?" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EyNJROjgp2bhfI_SQfCK-23">
-          <mxGeometry x="-0.1975" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EyNJROjgp2bhfI_SQfCK-37" value="Tenant ID" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EyNJROjgp2bhfI_SQfCK-4" target="EyNJROjgp2bhfI_SQfCK-35">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="580" y="360" />
-              <mxPoint x="340" y="360" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EyNJROjgp2bhfI_SQfCK-4" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0.9) ; font-family: &amp;#34;segoe ui vss (regular)&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;GET&lt;br&gt;TenantCompanies&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EyNJROjgp2bhfI_SQfCK-5" value="Custom APIs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="580" width="120" height="60" as="geometry" />
@@ -42,49 +16,25 @@
         <mxCell id="EyNJROjgp2bhfI_SQfCK-29" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="220" width="400" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="EyNJROjgp2bhfI_SQfCK-7" value="Standard BC365 API kald?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="EyNJROjgp2bhfI_SQfCK-29">
-          <mxGeometry x="30" y="20" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="EyNJROjgp2bhfI_SQfCK-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EyNJROjgp2bhfI_SQfCK-29" source="EyNJROjgp2bhfI_SQfCK-12" target="EyNJROjgp2bhfI_SQfCK-38">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EyNJROjgp2bhfI_SQfCK-12" value="Find Tenant for standard call?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="EyNJROjgp2bhfI_SQfCK-29">
-          <mxGeometry x="180" y="120" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="EyNJROjgp2bhfI_SQfCK-13" value="NEJ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="EyNJROjgp2bhfI_SQfCK-29" source="EyNJROjgp2bhfI_SQfCK-7" target="EyNJROjgp2bhfI_SQfCK-12">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="EyNJROjgp2bhfI_SQfCK-35" value="Upsert" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="EyNJROjgp2bhfI_SQfCK-29">
           <mxGeometry x="270" y="20" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EyNJROjgp2bhfI_SQfCK-38" value="WAT?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="EyNJROjgp2bhfI_SQfCK-29">
-          <mxGeometry x="200" y="310" width="80" height="80" as="geometry" />
+        <mxCell id="EyNJROjgp2bhfI_SQfCK-4" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0.9) ; font-family: &amp;#34;segoe ui vss (regular)&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;GET&lt;br&gt;TenantCompanies&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EyNJROjgp2bhfI_SQfCK-29">
+          <mxGeometry x="160" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EyNJROjgp2bhfI_SQfCK-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EyNJROjgp2bhfI_SQfCK-7" target="EyNJROjgp2bhfI_SQfCK-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="100" y="130" />
-              <mxPoint x="550" y="130" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="EyNJROjgp2bhfI_SQfCK-40" value="ReverseProxy / Router" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="220" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EyNJROjgp2bhfI_SQfCK-32" value="JA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EyNJROjgp2bhfI_SQfCK-31">
-          <mxGeometry x="0.0219" relative="1" as="geometry">
+        <mxCell id="EyNJROjgp2bhfI_SQfCK-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EyNJROjgp2bhfI_SQfCK-41" target="EyNJROjgp2bhfI_SQfCK-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EyNJROjgp2bhfI_SQfCK-43" value="JA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EyNJROjgp2bhfI_SQfCK-42">
+          <mxGeometry x="-0.2371" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EyNJROjgp2bhfI_SQfCK-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EyNJROjgp2bhfI_SQfCK-12" target="EyNJROjgp2bhfI_SQfCK-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EyNJROjgp2bhfI_SQfCK-34" value="JA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EyNJROjgp2bhfI_SQfCK-33">
-          <mxGeometry x="0.08" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EyNJROjgp2bhfI_SQfCK-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EyNJROjgp2bhfI_SQfCK-35" target="EyNJROjgp2bhfI_SQfCK-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="EyNJROjgp2bhfI_SQfCK-41" value="Er det BC365 data?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="830" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
