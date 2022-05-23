@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T10:20:14.168Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="ppI61-FFwt9W8HvyKVWV" version="18.0.8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-23T10:32:06.258Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="SAyCm9yi2w29YeUfSpYQ" version="18.0.8" type="github" pages="7">
   <diagram id="y7-9cns_4b4RCc8xut9D" name="Overall">
     <mxGraphModel dx="2377" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -117,7 +117,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="T5jom5PX4_7xZoVgfAtH" name="Page-1">
-    <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -416,6 +416,58 @@
         </mxCell>
         <mxCell id="J1hJyvXpLuZTHq2IiNPq-1" value="&lt;p class=&quot;MsoNormal&quot;&gt;OBT-84 ”API til Bankkontooprettelse og vedligehold”&lt;br/&gt;(afventer leveringsdato)&lt;/p&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="330" y="290" width="140" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HDtiJvWEX0RPNTuk2t3R" name="Liability Allowance">
+    <mxGraphModel dx="1550" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8iHLkbss_IxewxaRkSr7-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8iHLkbss_IxewxaRkSr7-1" target="8iHLkbss_IxewxaRkSr7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Starts on Operations Libility Allowance" link="https://operations2.obton.com/liabilityallowance" id="8iHLkbss_IxewxaRkSr7-1">
+          <mxCell style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="1">
+            <mxGeometry x="80" y="140" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="8iHLkbss_IxewxaRkSr7-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8iHLkbss_IxewxaRkSr7-2" target="8iHLkbss_IxewxaRkSr7-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8iHLkbss_IxewxaRkSr7-2" value="Company Management Support starts the flow" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8iHLkbss_IxewxaRkSr7-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8iHLkbss_IxewxaRkSr7-4" target="8iHLkbss_IxewxaRkSr7-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8iHLkbss_IxewxaRkSr7-4" value="Opretter bogføringslinjer imellem alle selskaber" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8iHLkbss_IxewxaRkSr7-6" value="Bogfører gennem standard BC365 API" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8iHLkbss_IxewxaRkSr7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8iHLkbss_IxewxaRkSr7-8" target="8iHLkbss_IxewxaRkSr7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8iHLkbss_IxewxaRkSr7-8" value="Generer PDF" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8iHLkbss_IxewxaRkSr7-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8iHLkbss_IxewxaRkSr7-13" target="8iHLkbss_IxewxaRkSr7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8iHLkbss_IxewxaRkSr7-13" value="Systemet tjekker om det er gjort før, og tilbagekører det hvis det er kørt før automatisk." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="290" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8iHLkbss_IxewxaRkSr7-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8iHLkbss_IxewxaRkSr7-21" target="8iHLkbss_IxewxaRkSr7-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8iHLkbss_IxewxaRkSr7-21" value="Finder Companies + BankAccounts + andet data" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="240" y="630" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8iHLkbss_IxewxaRkSr7-22" value="" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="450" y="630" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
