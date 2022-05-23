@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T10:36:39.733Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="8e9-Ozb-hCZRzJTDtC1l" version="18.0.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-05-23T10:38:41.280Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="LbmavMFeKUO4pO6zt96W" version="18.0.8" type="github" pages="7">
   <diagram id="y7-9cns_4b4RCc8xut9D" name="Overall">
     <mxGraphModel dx="2377" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -421,7 +421,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HDtiJvWEX0RPNTuk2t3R" name="Liability Allowance">
-    <mxGraphModel dx="1550" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="1946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -455,6 +455,9 @@
           <mxGeometry x="480" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8iHLkbss_IxewxaRkSr7-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8iHLkbss_IxewxaRkSr7-13" target="8iHLkbss_IxewxaRkSr7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8iHLkbss_IxewxaRkSr7-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8iHLkbss_IxewxaRkSr7-13" target="8iHLkbss_IxewxaRkSr7-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8iHLkbss_IxewxaRkSr7-13" value="Systemet tjekker om det er gjort før, og tilbagekører det hvis det er kørt før automatisk." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -492,6 +495,15 @@
         </mxCell>
         <mxCell id="8iHLkbss_IxewxaRkSr7-35" value="funcBC365" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="370" y="640" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8iHLkbss_IxewxaRkSr7-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8iHLkbss_IxewxaRkSr7-39" target="8iHLkbss_IxewxaRkSr7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8iHLkbss_IxewxaRkSr7-39" value="Levere BC365 data til view&#xa;&#xa;C# pipeline data projekt ish" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8iHLkbss_IxewxaRkSr7-43" value="ffår data fra BC365" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="65" y="290" width="130" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
