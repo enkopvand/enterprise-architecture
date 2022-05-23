@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T10:33:08.710Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="Q64V2F5NYACPhWeYe3BV" version="18.0.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-05-23T10:36:39.733Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="8e9-Ozb-hCZRzJTDtC1l" version="18.0.8" type="github" pages="7">
   <diagram id="y7-9cns_4b4RCc8xut9D" name="Overall">
     <mxGraphModel dx="2377" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -463,10 +463,19 @@
         <mxCell id="8iHLkbss_IxewxaRkSr7-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8iHLkbss_IxewxaRkSr7-21" target="8iHLkbss_IxewxaRkSr7-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="8iHLkbss_IxewxaRkSr7-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8iHLkbss_IxewxaRkSr7-21" target="8iHLkbss_IxewxaRkSr7-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8iHLkbss_IxewxaRkSr7-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8iHLkbss_IxewxaRkSr7-21" target="8iHLkbss_IxewxaRkSr7-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8iHLkbss_IxewxaRkSr7-21" value="Finder Companies + BankAccounts + andet data" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="370" y="480" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8iHLkbss_IxewxaRkSr7-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8iHLkbss_IxewxaRkSr7-22" target="8iHLkbss_IxewxaRkSr7-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8iHLkbss_IxewxaRkSr7-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8iHLkbss_IxewxaRkSr7-22" target="8iHLkbss_IxewxaRkSr7-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8iHLkbss_IxewxaRkSr7-22" value="Gemmer i Journal Entries" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
@@ -474,6 +483,15 @@
         </mxCell>
         <mxCell id="8iHLkbss_IxewxaRkSr7-24" value="Trigger bogføring" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="590" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8iHLkbss_IxewxaRkSr7-26" value="&lt;p class=&quot;MsoNormal&quot;&gt;OBT-93 ”API til finanskladdebogføring – Udvidelse” – Leveres&lt;br/&gt;primo uge 19&lt;/p&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="790" y="475" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8iHLkbss_IxewxaRkSr7-30" value="Skal bruge Company Hub" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="170" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8iHLkbss_IxewxaRkSr7-35" value="funcBC365" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="370" y="640" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
