@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T12:58:17.839Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="dhWnIO5HyJBknMvSjk5c" version="18.0.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-05-23T13:12:39.199Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="szaKCSX6kaFiGqSDsAqs" version="18.0.8" type="github" pages="8">
   <diagram id="y7-9cns_4b4RCc8xut9D" name="Overall">
     <mxGraphModel dx="2377" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -383,7 +383,7 @@
           </mxCell>
         </UserObject>
         <mxCell id="ozIcgDwb976uFlebvAfk-1" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate;" vertex="1" parent="1">
-          <mxGeometry x="940" y="390" width="50" height="50" as="geometry" />
+          <mxGeometry x="880" y="390" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -406,7 +406,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hngTgybiRzsHFCpFLKwW-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CaX6wEhDzHVtHg32PIAQ-3" target="CaX6wEhDzHVtHg32PIAQ-2">
+        <mxCell id="hngTgybiRzsHFCpFLKwW-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CaX6wEhDzHVtHg32PIAQ-3" target="CaX6wEhDzHVtHg32PIAQ-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="415" y="720" as="targetPoint" />
           </mxGeometry>
@@ -416,18 +416,24 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="671X-w92twL298h70GdT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CaX6wEhDzHVtHg32PIAQ-1" target="671X-w92twL298h70GdT-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Likely BC365 standard API - customers&#xa;(Documentation linked)" link="https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_customer_create" linkTarget="_blank" id="CaX6wEhDzHVtHg32PIAQ-1">
           <mxCell style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=send;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-            <mxGeometry x="660" y="240" width="140" height="95" as="geometry" />
+            <mxGeometry x="580" y="240" width="140" height="95" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="671X-w92twL298h70GdT-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CaX6wEhDzHVtHg32PIAQ-2" target="671X-w92twL298h70GdT-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Likely BC365 standard API - customers&#xa;(Documentation linked)" link="https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_customer_update" linkTarget="_blank" id="CaX6wEhDzHVtHg32PIAQ-2">
           <mxCell style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=send;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-            <mxGeometry x="475" y="410" width="140" height="95" as="geometry" />
+            <mxGeometry x="580" y="360" width="140" height="95" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="CaX6wEhDzHVtHg32PIAQ-3" value="&lt;span style=&quot;background-color: rgb(248, 249, 250);&quot;&gt;Is the Debitor already on &lt;br&gt;the MasterCompany OGH?&lt;/span&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="1">
-          <mxGeometry x="520" y="262.5" width="50" height="50" as="geometry" />
+          <mxGeometry x="470" y="262.5" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EzWk68tIbZs5tfeaFgJN-3" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dbWorPUHvzAmHqFOaRAx-1" target="pza1siKaB4rs9dqygMb9-3">
           <mxGeometry relative="1" as="geometry">
@@ -442,16 +448,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EzWk68tIbZs5tfeaFgJN-1" value="Data needs to come from multiple tables" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;bpmnShapeType=call;taskMarker=manual;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="135" y="110" width="120" height="80" as="geometry" />
+          <mxGeometry x="135" y="130" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pza1siKaB4rs9dqygMb9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pza1siKaB4rs9dqygMb9-1" target="dbWorPUHvzAmHqFOaRAx-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pza1siKaB4rs9dqygMb9-1" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=eventNonint;symbol=timer;" vertex="1" parent="1">
-          <mxGeometry x="30" y="262.5" width="50" height="50" as="geometry" />
+          <mxGeometry x="50" y="262.5" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="pza1siKaB4rs9dqygMb9-3" value="Upsert Debitor (Company) on the MasterCompany OGH on the OGH Tenant" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=service;" vertex="1" parent="1">
-          <mxGeometry x="330" y="247.5" width="120" height="80" as="geometry" />
+          <mxGeometry x="300" y="247.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="671X-w92twL298h70GdT-1" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate;" vertex="1" parent="1">
+          <mxGeometry x="750" y="327.5" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
