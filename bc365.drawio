@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T10:46:56.838Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="2rVApmO9N8dfXrqucOFK" version="18.0.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-05-23T10:47:16.764Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="hvQ3HaeFGAlmmzTmFmjo" version="18.0.8" type="github" pages="7">
   <diagram id="y7-9cns_4b4RCc8xut9D" name="Overall">
     <mxGraphModel dx="2377" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -508,7 +508,7 @@
         <mxCell id="8iHLkbss_IxewxaRkSr7-43" value="ffår data fra BC365" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="65" y="290" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="alK8zymxxNSuhV6gB3wu-1" value="Forudsætning - der findes en journal med ID&#39;et &quot;AUTO&quot; som er sat rigtigt op" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="alK8zymxxNSuhV6gB3wu-1" value="Forudsætning - der findes en journal med ID&#39;et &quot;AUTO&quot; som er sat rigtigt op - CSS (rigtigt)" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="690" y="290" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
