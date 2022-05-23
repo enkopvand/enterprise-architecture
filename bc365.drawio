@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T13:12:39.199Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="szaKCSX6kaFiGqSDsAqs" version="18.0.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-05-23T13:13:11.267Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="VLkBF189ws5W4yAMI9Q_" version="18.0.8" type="github" pages="8">
   <diagram id="y7-9cns_4b4RCc8xut9D" name="Overall">
     <mxGraphModel dx="2377" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -308,7 +308,7 @@
         </mxCell>
         <UserObject label="Create Vendor on BC365 Standard API&#xa;(Documentation linked)" link="https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_vendor_create" linkTarget="_blank" id="yms86Scg9fnt6qly7rgQ-3">
           <mxCell style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=send;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-            <mxGeometry x="694" y="262" width="140" height="95" as="geometry" />
+            <mxGeometry x="480" y="262.5" width="140" height="95" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="yms86Scg9fnt6qly7rgQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6PUvuGZ2wXyR1hlxx6MD-3" target="yms86Scg9fnt6qly7rgQ-3">
@@ -331,16 +331,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jSZsAHG0JFHl4_oasb05-1" value="Data from multiple tables are likely to be needed" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="265" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="205" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="e82Qpmx4ZBwwxdqTQCld-1" value="Company Management approves Vendor (four eyes) in Sharepoint" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;bpmnShapeType=call;taskMarker=manual;" vertex="1" parent="1">
-          <mxGeometry x="-155" y="110" width="120" height="80" as="geometry" />
+        <mxCell id="e82Qpmx4ZBwwxdqTQCld-1" value="Company Management approves Vendor (four eyes) in Sharepoint" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;bpmnShapeType=call;taskMarker=manual;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-155" y="140" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TzqbFhufuDNcVA_zZ5Xj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dciv_7-Y5oNdf-wYMfal-1" target="TzqbFhufuDNcVA_zZ5Xj-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Dciv_7-Y5oNdf-wYMfal-1" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=eventNonint;symbol=timer;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="285" width="50" height="50" as="geometry" />
+          <mxGeometry x="-230" y="284.5" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TzqbFhufuDNcVA_zZ5Xj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TzqbFhufuDNcVA_zZ5Xj-1" target="TzqbFhufuDNcVA_zZ5Xj-3">
           <mxGeometry relative="1" as="geometry" />
@@ -357,7 +357,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TzqbFhufuDNcVA_zZ5Xj-3" value="Find the Tenant where the MasterCompany is located" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=service;" vertex="1" parent="1">
-          <mxGeometry x="60" y="270" width="120" height="80" as="geometry" />
+          <mxGeometry x="20" y="269.5" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6PUvuGZ2wXyR1hlxx6MD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TzqbFhufuDNcVA_zZ5Xj-6" target="6PUvuGZ2wXyR1hlxx6MD-1">
           <mxGeometry relative="1" as="geometry" />
@@ -366,24 +366,24 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TzqbFhufuDNcVA_zZ5Xj-6" value="If there is more than one Tenant assosiated with the &quot;country code&quot; the Vendor needs to be Upserted on all MasterCompanies on all Tenants" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;bpmnShapeType=subprocess;isLoopSub=1;outline=eventInt;symbol=conditional;" vertex="1" parent="1">
-          <mxGeometry x="240" y="247.5" width="170" height="125" as="geometry" />
+          <mxGeometry x="180" y="247" width="170" height="125" as="geometry" />
         </mxCell>
         <mxCell id="6PUvuGZ2wXyR1hlxx6MD-1" value="Saves Upsert Action in a manner that allows it to be rerun." style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=service;isLoopSub=1;" vertex="1" parent="1">
-          <mxGeometry x="265" y="420" width="120" height="80" as="geometry" />
+          <mxGeometry x="205" y="410" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6PUvuGZ2wXyR1hlxx6MD-3" value="&lt;span style=&quot;background-color: rgb(248, 249, 250);&quot;&gt;Is the Vendor already on &lt;br&gt;MasterCompany template?&lt;/span&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="1">
-          <mxGeometry x="540" y="285" width="50" height="50" as="geometry" />
+          <mxGeometry x="389" y="285" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ozIcgDwb976uFlebvAfk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6PUvuGZ2wXyR1hlxx6MD-8" target="ozIcgDwb976uFlebvAfk-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="Update Vendor on BC365 Standard API&#xa;(Documentation linked)" link="https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_vendor_update" linkTarget="_blank" id="6PUvuGZ2wXyR1hlxx6MD-8">
           <mxCell style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=send;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-            <mxGeometry x="700" y="480" width="140" height="120" as="geometry" />
+            <mxGeometry x="480" y="410" width="140" height="120" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="ozIcgDwb976uFlebvAfk-1" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate;" vertex="1" parent="1">
-          <mxGeometry x="880" y="390" width="50" height="50" as="geometry" />
+          <mxGeometry x="650" y="357.5" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
