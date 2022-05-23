@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T09:36:09.652Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="GlskFGtBVmeCTgAKkYuK" version="18.0.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-23T09:49:26.440Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="ATm3q-mM92SCTwPXox7I" version="18.0.8" type="github" pages="4">
   <diagram id="y7-9cns_4b4RCc8xut9D" name="Overall">
     <mxGraphModel dx="2377" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -259,7 +259,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UUSFPpKCau6wvB8x1N02" name="Upsert Vendor">
-    <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -269,15 +269,58 @@
         <mxCell id="7FqZuLI1-bhy2s3xonyL-1" value="Last modifed in [ObtonData].[LINK].[tblVendors]" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="1">
           <mxGeometry x="60" y="270" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7FqZuLI1-bhy2s3xonyL-2" value="" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="1">
+        <mxCell id="yms86Scg9fnt6qly7rgQ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7FqZuLI1-bhy2s3xonyL-2" target="yms86Scg9fnt6qly7rgQ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7FqZuLI1-bhy2s3xonyL-2" value="Find the tenant where the MasterCompany is located" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="1">
           <mxGeometry x="260" y="270" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7FqZuLI1-bhy2s3xonyL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7FqZuLI1-bhy2s3xonyL-4" target="7FqZuLI1-bhy2s3xonyL-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="7FqZuLI1-bhy2s3xonyL-6" value="How is non approved filtered?" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7FqZuLI1-bhy2s3xonyL-5">
+          <mxGeometry x="-0.1833" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7FqZuLI1-bhy2s3xonyL-4" value="Approval process is accepted (four eyes)&#xa;Happens in sharepoint" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="1">
           <mxGeometry x="60" y="70" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="yms86Scg9fnt6qly7rgQ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yms86Scg9fnt6qly7rgQ-1" target="yms86Scg9fnt6qly7rgQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yms86Scg9fnt6qly7rgQ-1" value="If there is more than one tenant for a country code, the vendor needs to be upserted on all MasterCompanies on all tenants" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="250" y="410" width="140" height="120" as="geometry" />
+        </mxCell>
+        <UserObject label="Likely BC365 standard API" link="https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_vendor_create" linkTarget="_blank" id="yms86Scg9fnt6qly7rgQ-3">
+          <mxCell style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="1">
+            <mxGeometry x="620" y="620" width="140" height="120" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="yms86Scg9fnt6qly7rgQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yms86Scg9fnt6qly7rgQ-8" target="yms86Scg9fnt6qly7rgQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yms86Scg9fnt6qly7rgQ-11" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yms86Scg9fnt6qly7rgQ-10">
+          <mxGeometry x="-0.075" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yms86Scg9fnt6qly7rgQ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yms86Scg9fnt6qly7rgQ-8" target="yms86Scg9fnt6qly7rgQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yms86Scg9fnt6qly7rgQ-14" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yms86Scg9fnt6qly7rgQ-13">
+          <mxGeometry x="-0.1625" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yms86Scg9fnt6qly7rgQ-8" value="Is vendor on MasterCompany template?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="630" width="110" height="100" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;span style=&quot;&quot;&gt;Likely BC365 standard API&lt;/span&gt;" link="https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_vendor_update" linkTarget="_blank" id="yms86Scg9fnt6qly7rgQ-12">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="275" y="890" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
