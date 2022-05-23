@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T12:53:02.482Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="K-WbAogDBKsK8e_eBgrH" version="18.0.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-05-23T12:55:47.232Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="n41ORqXsdJcKudzK4LNa" version="18.0.8" type="github" pages="8">
   <diagram id="y7-9cns_4b4RCc8xut9D" name="Overall">
     <mxGraphModel dx="2377" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -461,26 +461,32 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="c9XQ0NcamBMTy_HZybjN-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c9XQ0NcamBMTy_HZybjN-1" target="c9XQ0NcamBMTy_HZybjN-2">
+        <mxCell id="MOmmQpUYmyzGICo6XZop-2" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3D2gPNnIzBvrmEw4ZCjW-1" target="MOmmQpUYmyzGICo6XZop-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c9XQ0NcamBMTy_HZybjN-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c9XQ0NcamBMTy_HZybjN-1" target="c9XQ0NcamBMTy_HZybjN-4">
+        <mxCell id="3D2gPNnIzBvrmEw4ZCjW-1" value="Has &quot;Last Modified&quot; for Bank Account in&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: rgb(248, 249, 250);&quot;&gt;[ObtonData].[LINK].[tblBankAccounts]&lt;/span&gt;&lt;span style=&quot;background-color: rgb(248, 249, 250);&quot;&gt;&lt;br&gt;changed since last run?&lt;br&gt;&lt;/span&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="180" y="562.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3D2gPNnIzBvrmEw4ZCjW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3D2gPNnIzBvrmEw4ZCjW-2" target="3D2gPNnIzBvrmEw4ZCjW-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c9XQ0NcamBMTy_HZybjN-1" value="[ObtonData].[LINK].[tblBankAccounts]&#xa;&#xa;Last modified changes" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="1">
-          <mxGeometry x="60" y="90" width="120" height="80" as="geometry" />
+        <mxCell id="3D2gPNnIzBvrmEw4ZCjW-2" value="The tblBankAccounts will be changed." style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;bpmnShapeType=call;taskMarker=manual;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="145" y="410" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="J1hJyvXpLuZTHq2IiNPq-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c9XQ0NcamBMTy_HZybjN-2" target="J1hJyvXpLuZTHq2IiNPq-1">
+        <mxCell id="3D2gPNnIzBvrmEw4ZCjW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3D2gPNnIzBvrmEw4ZCjW-3" target="3D2gPNnIzBvrmEw4ZCjW-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c9XQ0NcamBMTy_HZybjN-2" value="Find Company BC365 ID&#xa;&#xa;[BankAccounts_AccountOwnerID] matches [Companies_Id]in [ObtonData].[LINK].[tblCompanies]" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="1">
-          <mxGeometry x="310" y="70" width="180" height="120" as="geometry" />
+        <mxCell id="3D2gPNnIzBvrmEw4ZCjW-3" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=eventNonint;symbol=timer;" vertex="1" parent="1">
+          <mxGeometry x="40" y="562.5" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="c9XQ0NcamBMTy_HZybjN-4" value="There will be changes to the table" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="60" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="MOmmQpUYmyzGICo6XZop-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MOmmQpUYmyzGICo6XZop-1" target="MOmmQpUYmyzGICo6XZop-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="J1hJyvXpLuZTHq2IiNPq-1" value="&lt;p class=&quot;MsoNormal&quot;&gt;OBT-84 ”API til Bankkontooprettelse og vedligehold”&lt;br/&gt;(afventer leveringsdato)&lt;/p&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="330" y="290" width="140" height="100" as="geometry" />
+        <mxCell id="MOmmQpUYmyzGICo6XZop-1" value="Find Company BC365 ID&#xa;&#xa;[BankAccounts_AccountOwnerID] matches [Companies_Id]in [ObtonData].[LINK].[tblCompanies]" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=service;" vertex="1" parent="1">
+          <mxGeometry x="360" y="521.25" width="200" height="132.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MOmmQpUYmyzGICo6XZop-3" value="OBT-84 ”API til Bankkontooprettelse og vedligehold”&#xa;(afventer leveringsdato)" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=send;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="620" y="543.13" width="150" height="88.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
