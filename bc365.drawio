@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T11:45:43.671Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="P7mm9u0F8kgnS2oV5nIs" version="18.0.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-05-23T12:19:45.958Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="HYUa2LuLPhdvyM_wYHRh" version="18.0.8" type="github" pages="7">
   <diagram id="y7-9cns_4b4RCc8xut9D" name="Overall">
     <mxGraphModel dx="2377" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -226,40 +226,58 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eBYu1IKp9fvz8-o1BrNX" name="UpsertCompany">
-    <mxGraphModel dx="1550" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tyX8FvnpS7oLyLspVcJU-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tyX8FvnpS7oLyLspVcJU-2" target="tyX8FvnpS7oLyLspVcJU-3">
+        <mxCell id="Qhi-izQsGSpgLhHnQKgI-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qhi-izQsGSpgLhHnQKgI-3" target="Qhi-izQsGSpgLhHnQKgI-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tyX8FvnpS7oLyLspVcJU-2" value="Create/Update company&#xa;&#xa;[ObtonData].[LINK].[tblCompanies]" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="1">
-          <mxGeometry x="70" y="220" width="120" height="80" as="geometry" />
+        <mxCell id="Qhi-izQsGSpgLhHnQKgI-3" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=eventNonint;symbol=timer;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="tyX8FvnpS7oLyLspVcJU-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tyX8FvnpS7oLyLspVcJU-3" target="tyX8FvnpS7oLyLspVcJU-5">
+        <mxCell id="Qhi-izQsGSpgLhHnQKgI-9" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qhi-izQsGSpgLhHnQKgI-6" target="Qhi-izQsGSpgLhHnQKgI-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tyX8FvnpS7oLyLspVcJU-3" value="Last modified in tblcompanies" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="1">
-          <mxGeometry x="270" y="220" width="120" height="80" as="geometry" />
+        <mxCell id="Qhi-izQsGSpgLhHnQKgI-6" value="&lt;span style=&quot;&quot;&gt;Has Last Modified for Company in&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(248, 249, 250);&quot;&gt;[ObtonData].[LINK].[tblCompanies]&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&amp;nbsp;Changed Since last run?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=#ffffff;spacingBottom=0;spacingTop=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="51.25" width="105" height="87.5" as="geometry" />
         </mxCell>
-        <mxCell id="tyX8FvnpS7oLyLspVcJU-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tyX8FvnpS7oLyLspVcJU-5" target="tyX8FvnpS7oLyLspVcJU-7">
+        <mxCell id="Qhi-izQsGSpgLhHnQKgI-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qhi-izQsGSpgLhHnQKgI-8" target="Qhi-izQsGSpgLhHnQKgI-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhi-izQsGSpgLhHnQKgI-8" value="Create BC365 JSON from&amp;nbsp;&lt;span style=&quot;background-color: rgb(248, 249, 250);&quot;&gt;[ObtonData].[LINK].[tblCompanies] Data&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=#ffffff;spacingBottom=0;spacingTop=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="57.5" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhi-izQsGSpgLhHnQKgI-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qhi-izQsGSpgLhHnQKgI-10" target="Qhi-izQsGSpgLhHnQKgI-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhi-izQsGSpgLhHnQKgI-10" value="Upsert Company through helios-api-cardea-bc365.&lt;br&gt;&lt;br&gt;Save Upsert Action so that it can be redone if Action ends up on Elbæk and Vejrup Errorlist" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;labelBackgroundColor=#ffffff;spacingBottom=0;spacingTop=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="17.5" width="130" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhi-izQsGSpgLhHnQKgI-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qhi-izQsGSpgLhHnQKgI-16" target="Qhi-izQsGSpgLhHnQKgI-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhi-izQsGSpgLhHnQKgI-16" value="CompanyHub" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;labelBackgroundColor=#ffffff;spacingBottom=0;spacingTop=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhi-izQsGSpgLhHnQKgI-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qhi-izQsGSpgLhHnQKgI-18" target="Qhi-izQsGSpgLhHnQKgI-22">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="530" y="400" />
+              <mxPoint x="840" y="380" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tyX8FvnpS7oLyLspVcJU-5" value="createUpdateCompany on company hub" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="1">
-          <mxGeometry x="470" y="220" width="120" height="80" as="geometry" />
+        <mxCell id="Qhi-izQsGSpgLhHnQKgI-18" value="ErrorList" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;labelBackgroundColor=#ffffff;spacingBottom=0;spacingTop=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="205" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tyX8FvnpS7oLyLspVcJU-7" value="Company gets upserted by Elbæk and Vejrup" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="1">
-          <mxGeometry x="270" y="360" width="120" height="80" as="geometry" />
+        <mxCell id="Qhi-izQsGSpgLhHnQKgI-22" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="350" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="UUSFPpKCau6wvB8x1N02" name="Upsert Vendor">
-    <mxGraphModel dx="1550" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -331,7 +349,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ijkr_AI3cJ9d4mK-TOvW" name="Upsert Debitor">
-    <mxGraphModel dx="1550" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
