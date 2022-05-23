@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T09:49:26.440Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="ATm3q-mM92SCTwPXox7I" version="18.0.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-23T09:57:39.648Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="RJ-yY_9jcMqr87szF3-5" version="18.0.8" type="github" pages="5">
   <diagram id="y7-9cns_4b4RCc8xut9D" name="Overall">
-    <mxGraphModel dx="2377" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2377" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -266,6 +266,9 @@
         <mxCell id="7FqZuLI1-bhy2s3xonyL-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7FqZuLI1-bhy2s3xonyL-1" target="7FqZuLI1-bhy2s3xonyL-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="jSZsAHG0JFHl4_oasb05-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7FqZuLI1-bhy2s3xonyL-1" target="jSZsAHG0JFHl4_oasb05-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7FqZuLI1-bhy2s3xonyL-1" value="Last modifed in [ObtonData].[LINK].[tblVendors]" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="1">
           <mxGeometry x="60" y="270" width="120" height="80" as="geometry" />
         </mxCell>
@@ -293,7 +296,7 @@
           <mxGeometry x="250" y="410" width="140" height="120" as="geometry" />
         </mxCell>
         <UserObject label="Likely BC365 standard API" link="https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_vendor_create" linkTarget="_blank" id="yms86Scg9fnt6qly7rgQ-3">
-          <mxCell style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="1">
+          <mxCell style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
             <mxGeometry x="620" y="620" width="140" height="120" as="geometry" />
           </mxCell>
         </UserObject>
@@ -317,8 +320,60 @@
           <mxGeometry x="280" y="630" width="110" height="100" as="geometry" />
         </mxCell>
         <UserObject label="&lt;span style=&quot;&quot;&gt;Likely BC365 standard API&lt;/span&gt;" link="https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_vendor_update" linkTarget="_blank" id="yms86Scg9fnt6qly7rgQ-12">
-          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
             <mxGeometry x="275" y="890" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="jSZsAHG0JFHl4_oasb05-1" value="Data from multiple tables are likely to be needed" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="60" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ijkr_AI3cJ9d4mK-TOvW" name="Upsert Debitor">
+    <mxGraphModel dx="1550" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hngTgybiRzsHFCpFLKwW-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hngTgybiRzsHFCpFLKwW-2" target="hngTgybiRzsHFCpFLKwW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hngTgybiRzsHFCpFLKwW-2" value="Find the tenant where the MasterCompany is located" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hngTgybiRzsHFCpFLKwW-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hngTgybiRzsHFCpFLKwW-4" target="hngTgybiRzsHFCpFLKwW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hngTgybiRzsHFCpFLKwW-4" value="If there is more than one tenant for a country code, the debitor needs to be upserted on all MasterCompanies on all tenants" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="1">
+          <mxGeometry x="330" y="240" width="140" height="120" as="geometry" />
+        </mxCell>
+        <UserObject label="Likely BC365 standard API" link="https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_vendor_create" linkTarget="_blank" id="hngTgybiRzsHFCpFLKwW-5">
+          <mxCell style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+            <mxGeometry x="700" y="450" width="140" height="120" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="hngTgybiRzsHFCpFLKwW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hngTgybiRzsHFCpFLKwW-10" target="hngTgybiRzsHFCpFLKwW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hngTgybiRzsHFCpFLKwW-7" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hngTgybiRzsHFCpFLKwW-6">
+          <mxGeometry x="-0.075" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hngTgybiRzsHFCpFLKwW-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hngTgybiRzsHFCpFLKwW-10" target="hngTgybiRzsHFCpFLKwW-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hngTgybiRzsHFCpFLKwW-9" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hngTgybiRzsHFCpFLKwW-8">
+          <mxGeometry x="-0.1625" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hngTgybiRzsHFCpFLKwW-10" value="Is vendor on MasterCompany template?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="460" width="110" height="100" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;span style=&quot;&quot;&gt;Likely BC365 standard API&lt;/span&gt;" link="https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/api/dynamics_vendor_update" linkTarget="_blank" id="hngTgybiRzsHFCpFLKwW-11">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+            <mxGeometry x="355" y="720" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
