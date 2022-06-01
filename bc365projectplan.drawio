@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T08:52:08.660Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="u5JQmMsCcIN0c3DPyGgH" version="18.1.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-01T09:05:48.486Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="IPZkCDsSlsU0EXSKfhiu" version="18.1.2" type="github" pages="2">
   <diagram id="u6ewYn6W2KU3aeUmfPHl" name="Overall">
     <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,6 +57,59 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="19bCvHtOzqoHAwFTc1xn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="19bCvHtOzqoHAwFTc1xn-2" target="19bCvHtOzqoHAwFTc1xn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bCvHtOzqoHAwFTc1xn-2" value="Upsert company&#xa;(2 dage)&#xa;Regner med det er klart fredag" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=service;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="405" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="19bCvHtOzqoHAwFTc1xn-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="19bCvHtOzqoHAwFTc1xn-3" target="19bCvHtOzqoHAwFTc1xn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bCvHtOzqoHAwFTc1xn-3" value="Upsert Company Error List&#xa;&#xa;Support/ProjektOpgave" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=user;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="380" y="380" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="19bCvHtOzqoHAwFTc1xn-5" value="Upsert company on CompanyHub&#xa;&#xa;Modtager men gemmer ikke" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=service;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="600" y="392.5" width="140" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="19bCvHtOzqoHAwFTc1xn-7" value="Obton Proxy&#xa;(2 uger)&#xa;Burde måske have taget 1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=service;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="260" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="19bCvHtOzqoHAwFTc1xn-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="19bCvHtOzqoHAwFTc1xn-8" target="19bCvHtOzqoHAwFTc1xn-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bCvHtOzqoHAwFTc1xn-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="19bCvHtOzqoHAwFTc1xn-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19bCvHtOzqoHAwFTc1xn-8" value="Upsert Vendor&#xa;(ikke begyndt)&#xa;Burde nok tage 1 uge når Elbæk og Vejrup leverer" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=service;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="370" y="570" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="19bCvHtOzqoHAwFTc1xn-10" value="Upsert vendor on CompanyHub" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=service;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="580" y="570" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="19bCvHtOzqoHAwFTc1xn-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="19bCvHtOzqoHAwFTc1xn-14" target="19bCvHtOzqoHAwFTc1xn-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bCvHtOzqoHAwFTc1xn-14" value="Upsert Debitor&#xa;(ikke begyndt)&#xa;Burde nok tage 1 uge når Elbæk og Vejrup leverer" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=service;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="370" y="690" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="19bCvHtOzqoHAwFTc1xn-15" value="Upsert debitor on CompanyHub" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=service;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="580" y="690" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="19bCvHtOzqoHAwFTc1xn-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="19bCvHtOzqoHAwFTc1xn-17" target="19bCvHtOzqoHAwFTc1xn-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bCvHtOzqoHAwFTc1xn-17" value="Upsert Debitor beskrivlse" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=user;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="130" y="690" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="19bCvHtOzqoHAwFTc1xn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="19bCvHtOzqoHAwFTc1xn-19" target="19bCvHtOzqoHAwFTc1xn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19bCvHtOzqoHAwFTc1xn-19" value="Upsert Vendor beskrivlse" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=user;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="130" y="570" width="140" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
